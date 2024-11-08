@@ -16,6 +16,7 @@ export default function Home() {
         <meta property="og:description" content={`Check out ${instagramUsername}'s Instagram profile for the latest photos and updates.`} />
         <meta property="og:url" content={profileUrl} />
         <meta property="og:type" content="profile" />
+        <meta name="google-site-verification" content="EYvISly3dlhh794oJL7eMvvMJbBgqlDnGCUmbk0ZZuw" />
       </Head>
       <main>
         <h1>Connect with {instagramUsername} on Instagram</h1>
