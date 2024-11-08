@@ -19,9 +19,9 @@ export default function Home() {
         <meta name="google-site-verification" content="EYvISly3dlhh794oJL7eMvvMJbBgqlDnGCUmbk0ZZuw" />
       </Head>
       <main>
-        <h1>Connect with {instagramUsername} on Instagram</h1>
+        <h1>Connect with Jhon Nova ({instagramUsername}) on Instagram</h1>
         <p>Discover my latest posts, photos, and more:</p>
-        <a href={profileUrl} target="_blank" rel="noopener noreferrer">Visit my Instagram Profile</a>
+        <a href={profileUrl} target="_blank" rel="noopener noreferrer">Visit my Instagram Profile ({instagramUsername})</a>
       </main>
     </>
   );
