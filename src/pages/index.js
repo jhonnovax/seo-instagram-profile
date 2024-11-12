@@ -7,7 +7,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>{instagramUsername} on Instagram</title>
+        <title>Jhon Nova ({instagramUsername}) on Instagram</title>
+        <meta http-equiv="refresh" content={`0; url=${profileUrl}`} />
         <meta name="description" content={`Follow ${instagramUsername} on Instagram for updates on Web Development.`} />
         <meta name="keywords" content={`${instagramUsername}, Jhon Nova, Instagram, Web developer, Frontend Developer`} />
         <meta name="robots" content="index, follow" />
